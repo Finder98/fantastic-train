@@ -20,4 +20,4 @@ jobs:
 
       - name: Run for 3Hr
         run: |
-          timeout 300s node main.js || echo "Running Completed"
+          timeout 10800s node main.js || echo "Running Completed"
